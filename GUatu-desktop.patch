@@ -1,0 +1,13 @@
+--- GUatu/share/guatu.desktop~	2005-07-30 01:35:08.000000000 +0000
++++ GUatu/share/guatu.desktop	2005-12-24 19:57:18.132381750 +0000
+@@ -1,8 +1,10 @@
+ [Desktop Entry]
+ Name=GUatu Comic book Viewer
+ Name[es]=Visor de comics Guatu
++Name[pl]=Przeglądarka komiksów Guatu
+ Comment=cbr and cbz comics viewer
+ Comment[es]=Visor de comics cbr y cbz
++Comment[pl]=Przeglądarka plików cbr i cbz
+ Exec=guatu
+ Terminal=false
+ Encoding=UTF-8
