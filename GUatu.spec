@@ -9,9 +9,10 @@ Source0:	http://dl.sourceforge.net/guatu/%{name}-%{version}.tgz
 # Source0-md5:	479252e88d36da14851510c425548375
 Patch0:		%{name}-desktop.patch
 URL:		http://guatu.sourceforge.net/
+BuildRequires:	OpenGL-devel
 BuildRequires:	gtk+2-devel
 BuildRequires:	gtkglext-devel
-BuildRequires:	OpenGL-devel
+BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -39,7 +40,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README AUTHORS ChangeLog
+%doc AUTHORS ChangeLog README
 %attr(755,root,root) %{_bindir}/*
 %{_desktopdir}/*.desktop
 %{_pixmapsdir}/*
