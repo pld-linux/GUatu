@@ -10,16 +10,16 @@ Source0:	http://dl.sourceforge.net/guatu/%{name}-%{version}.tgz
 Patch0:		%{name}-desktop.patch
 URL:		http://guatu.sourceforge.net/
 BuildRequires:	OpenGL-devel
-BuildRequires:	gtk+2-devel
-BuildRequires:	gtkglext-devel
+BuildRequires:	gtk+2-devel >= 2.0.0
+BuildRequires:	gtkglext-devel >= 1.0.0
 BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-GUatu is a GTK/OpenGL-based comic book viewer.
+GUatu is a GTK+/OpenGL-based comic book viewer.
 
 %description -l pl
-GUatu jest bazuj±c± na GTK/OpenGL przegl±dark± komiksów.
+GUatu jest opart± na GTK+/OpenGL przegl±dark± komiksów.
 
 %prep
 %setup -q -n %{name}
