@@ -1,5 +1,5 @@
 Summary:	Comic book viewer
-Summary(pl.UTF-8):   Przeglądarka komiksów
+Summary(pl.UTF-8):	Przeglądarka komiksów
 Name:		GUatu
 Version:	0.872
 Release:	1
