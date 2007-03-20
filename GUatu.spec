@@ -1,5 +1,5 @@
 Summary:	Comic book viewer
-Summary(pl.UTF-8):	PrzeglÄ…darka komiksÃ³w
+Summary(pl):	Przegl±darka komiksów
 Name:		GUatu
 Version:	0.872
 Release:	1
@@ -18,8 +18,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 GUatu is a GTK+/OpenGL-based comic book viewer.
 
-%description -l pl.UTF-8
-GUatu jest opartÄ… na GTK+/OpenGL przeglÄ…darkÄ… komiksÃ³w.
+%description -l pl
+GUatu jest opart± na GTK+/OpenGL przegl±dark± komiksów.
 
 %prep
 %setup -q -n %{name}
